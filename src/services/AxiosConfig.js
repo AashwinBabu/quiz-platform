@@ -2,7 +2,7 @@
 import axios from 'axios'
 
 const AxiosConfig = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://quizup-server-wfd1.onrender.com',
     headers: {
         'Content-Type': 'application/json'
     }
